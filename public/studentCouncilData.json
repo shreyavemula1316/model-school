@@ -1,0 +1,39 @@
+[
+    {
+      "position": "President",
+      "name": "Aadhya Reddy",
+      "grade": 12,
+      "icon": "blue"
+    },
+    {
+      "position": "Vice President",
+      "name": "Sanya Rao",
+      "grade": 11,
+      "icon": "green"
+    },
+    {
+      "position": "Secretary",
+      "name": "Rohan Sharma",
+      "grade": 10,
+      "icon": "red"
+    },
+    {
+      "position": "Treasurer",
+      "name": "Kavya Patel",
+      "grade": 12,
+      "icon": "orange"
+    },
+    {
+      "position": "Event Coordinator",
+      "name": "Suraj Reddy",
+      "grade": 11,
+      "icon": "yellow"
+    },
+    {
+      "position": "Public Relations Officer",
+      "name": "Neha Singh",
+      "grade": 10,
+      "icon": "purple"
+    }
+  ]
+  

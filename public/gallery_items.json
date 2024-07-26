@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "title": "Sports Day",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://www.balamandir.org/site/images/balamandir-events/Sports-Day/DCC%20Sports%20Day%20%281%29.JPG",
+    "date": "2023-05-02"
+  },
+  {
+    "id": 2,
+    "title": "Teacher's Day",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://blog.iilm.edu/wp-content/uploads/2017/09/Teachers-Day-Celebrations-at-IILM.jpg",
+    "date": "2023-09-05"
+  },
+  {
+    "id": 3,
+    "title": "Drama Night",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://www.srpublicschool.edu.in/photogallery//DSC_0801.JPG",
+    "date": "2023-11-10"
+  },
+  {
+    "id": 4,
+    "title": "Quiz Competition",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://www.thepresidiumschool.com/news_image/0klvpres-gk-quiz-2019-0001.jpg",
+    "date": "2023-06-15"
+  },
+  {
+    "id": 5,
+    "title": "Book Fair",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://d5i0fhmkm8zzl.cloudfront.net/styles/india_resize_600x340/s3/BookFairs-Overview-Banner2_2.jpg?itok=Owadbp6k",
+    "date": "2023-09-25"
+  },
+  {
+    "id": 6,
+    "title": "Debate Competition",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://sp-ao.shortpixel.ai/client/q_lossless,ret_img,w_1024,h_683/https://www.jce.ac.in/wp-content/uploads/2022/12/deb.jpeg",
+    "date": "2023-03-21"
+  },
+  {
+    "id": 7,
+    "title": "Drama Night",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://cardinalgraciashighschool.org/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-28-at-3.13.27-PM-1-1080x675.jpeg",
+    "date": "2023-10-15"
+  },
+  {
+    "id": 8,
+    "title": "Quiz Competition",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://rubypark.com/wp-content/uploads/2021/02/Science-Quiz-Conducted-in-RPPS-2.jpg",
+    "date": "2023-04-25"
+  },
+  {
+    "id": 10,
+    "title": "School Annual Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://www.holistiquelearning.com/blog/wp-content/uploads/2020/01/Annual-Day-pic.jpg",
+    "date": "2023-08-20"
+  },
+  {
+    "id": 11,
+    "title": "School Annual Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://indusvalleyinternationalschool.com/wp-content/uploads/2023/01/image_2023_01_16T10_10_57_145Z-1080x600.jpg",
+    "date": "2023-08-17"
+  },
+  {
+    "id": 12,
+    "title": "Independence Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660642684_15-august-st-xaviers-high-school-howrah-5.jpeg",
+    "date": "2023-08-15"
+  },
+  {
+    "id": 14,
+    "title": "Sports Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://nitanandschools.com/wp-content/uploads/2018/03/sports2-1.jpg",
+    "date": "2023-06-27"
+  },
+  {
+    "id": 15,
+    "title": "Sports Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://www.ptvenglishmediumprimary.com/wp-content/gallery/sports-day-2019/DSC_7340.JPG",
+    "date": "2023-04-15"
+  },
+  {
+    "id": 16,
+    "title": "Children's Day",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/11/2022_11$largeimg_1809028329.JPG",
+    "date": "2023-11-14"
+  },
+  {
+    "id": 19,
+    "title": "School Annual Day",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://www.scottishigh.com/wp-content/uploads/2019/11/Annual-Day-Celebration-2019-3.jpg",
+    "date": "2023-09-15"
+  },
+  {
+    "id": 20,
+    "title": "Drama Night",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://sreepuramems.org/wp-content/uploads/2019/11/04-36th-annual-day-1170x568.jpg",
+    "date": "2023-05-30"
+  },
+  {
+    "id": 21,
+    "title": "Drama Night",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://www.dais.edu.in/images/annualday-gallery-2015-1.jpg",
+    "date": "2023-11-25"
+  },
+  {
+    "id": 22,
+    "title": "Yoga Day",
+    "type": "event",
+    "mediaType": "photo",
+    "url": "https://static.toiimg.com/thumb/msid-101177427,width-1280,height-720,resizemode-4/101177427.jpg",
+    "date": "2023-06-21"
+  },
+  {
+    "id": 23,
+    "title": "Christmas Celebration",
+    "type": "activity",
+    "mediaType": "photo",
+    "url": "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2017/12/24/Pictures/december-hindustan-christmas-december-school-students-celebrating_9394186e-e8a7-11e7-bb33-29502a427e3f.jpg",
+    "date": "2023-12-25"
+  }
+]
