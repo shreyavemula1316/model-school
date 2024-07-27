@@ -35,10 +35,10 @@ const router = createBrowserRouter([
         path: "/vision",
         element: <Vision /> // Add the new route here
       },
-      {
-        path: "/gallery",
-        element: <Gallery />
-      },
+      // {
+      //   path: "/gallery",
+      //   element: <Gallery />
+      // },
       {
         path: "/contact",
         element: <Contact />

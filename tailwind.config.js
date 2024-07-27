@@ -20,6 +20,11 @@ module.exports = {
         'custom-purple': '#3C0753',
         'custom-blue': '#96C9F4',
         'custom-blue-dark': '#0F67B1',
+        'custom-green': '#254336',
+        'custom-red-brown': '#9B4444',
+        'custom-deep-red': '#561C24',
+        'custom-dark-red': '#750E21',
+        'custom-red': '#8c1515',
 
       },
     },

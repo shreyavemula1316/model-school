@@ -33,18 +33,16 @@ const Navbar = () => {
     };
   }, []);
 
-  // Determine if the 'About' item should be active
   const isAboutActive = location.pathname.startsWith("/about-tgms") || location.pathname.startsWith("/vision");
 
-  const handleDropdownItemClick = (item) => {
-    // Handle dropdown item click if needed
+  const handleDropdownItemClick = () => {
     setIsDropdownOpen(false);
   };
 
   const navItems = [
     { path: "/", link: "Home" },
-    { path: "#", link: "About", dropdown: true }, // Changed path to '#' for non-navigation
-    { path: "/gallery", link: "Gallery" },
+    { path: "#", link: "About", dropdown: true },
+    // { path: "/gallery", link: "Gallery" },
     { path: "/academics", link: "Academics" },
     { path: "/faculty", link: "Faculty" },
     { path: "/admissions", link: "Admissions" },
@@ -64,7 +62,7 @@ const Navbar = () => {
 
       <nav className="px-4 py-4 max-w-7xl mx-auto">
         <div className="md:hidden flex items-center justify-between">
-          <button onClick={toggleMenu} className="cursor-pointer text-white p-2">
+          <button onClick={toggleMenu} className="cursor-pointer text-black p-2">
             {isOpen ? <FaTimes className="w-6 h-6" /> : <FaBars className="w-6 h-6" />}
           </button>
         </div>
@@ -74,7 +72,7 @@ const Navbar = () => {
             {navItems.map(({ path, link, dropdown }) => (
               <li
                 className={`relative mb-2 md:mb-0 ${dropdown ? "group" : ""}`}
-                key={link} // Changed key to 'link' for better uniqueness
+                key={link}
                 onMouseEnter={dropdown ? handleMouseEnter : undefined}
                 onMouseLeave={dropdown ? handleMouseLeave : undefined}
                 ref={dropdown ? dropdownRef : null}
@@ -90,8 +88,8 @@ const Navbar = () => {
                   to={path}
                   onClick={(e) => {
                     if (dropdown) {
-                      e.preventDefault(); // Prevent default navigation
-                      setIsDropdownOpen(!isDropdownOpen); // Toggle dropdown visibility
+                      e.preventDefault();
+                      setIsDropdownOpen(!isDropdownOpen);
                     }
                   }}
                 >
@@ -107,7 +105,7 @@ const Navbar = () => {
                       <NavLink
                         to="/about-tgms"
                         className="block px-4 py-2 hover:bg-dark-muted-blue text-white rounded-lg transition-colors duration-300 ease-in-out"
-                        onClick={() => handleDropdownItemClick("About TGMS")}
+                        onClick={handleDropdownItemClick}
                       >
                         About TGMS
                       </NavLink>
@@ -116,7 +114,7 @@ const Navbar = () => {
                       <NavLink
                         to="/vision"
                         className="block px-4 py-2 hover:bg-dark-muted-blue text-white rounded-lg transition-colors duration-300 ease-in-out"
-                        onClick={() => handleDropdownItemClick("Vision")}
+                        onClick={handleDropdownItemClick}
                       >
                         Vision
                       </NavLink>

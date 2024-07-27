@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { ChevronRightIcon } from '@heroicons/react/20/solid'; // Import an arrow icon from Heroicons or another icon library
+import { ChevronRightIcon } from '@heroicons/react/20/solid';
 
 const Sidebar = () => {
   const location = useLocation();
   const [activeDropdownItem, setActiveDropdownItem] = useState(null);
 
   useEffect(() => {
-    // Highlight the active dropdown item based on the current location
     if (location.pathname.startsWith("/about-tgms") || location.pathname === "/vision") {
       setActiveDropdownItem(location.pathname === "/about-tgms" ? "About TGMS" : "Vision");
     } else {
@@ -19,11 +18,10 @@ const Sidebar = () => {
     setActiveDropdownItem(item);
   };
 
-  // Determine if "About" is active based on child items
   const isAboutActive = location.pathname.startsWith("/about-tgms") || activeDropdownItem === "About TGMS" || activeDropdownItem === "Vision";
 
   return (
-    <div className="w-64 bg-gray-200 p-4">
+    <div className="md:w-64 bg-gray-200 p-4 md:min-h-screen md:sticky md:top-0">
       <ul className="space-y-2">
         <li className="relative">
           <NavLink
@@ -75,9 +73,6 @@ const Sidebar = () => {
             </li>
           </ul>
         </li>
-
-        {/* Add more sections here if needed */}
-        
       </ul>
     </div>
   );
